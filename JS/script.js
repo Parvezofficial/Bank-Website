@@ -9,11 +9,11 @@ let balanceOutput = document.getElementById('balance-output')
 let withdrawValue = document.getElementById('withdraw-value');
 let withdrawOutput = document.getElementById('withdraw-output');
 
-function addMoney(currentMoney, NewMoney){
-    const result = Number(currentMoney) + Number(NewMoney);
-    return result;
-}
-
+// function addMoney(currentMoney, NewMoney){
+//     const result = Number(currentMoney) + Number(NewMoney);
+//     return result;
+// }
+// Deposit amount 
 function deposit(){
  
     depositeOutput.innerText = 
