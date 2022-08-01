@@ -7,7 +7,7 @@
 }
 
 body {
-  background-color: #0e8995;
+  background-color: #273c75;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -32,6 +32,7 @@ header h1,
 h3 {
   color: white;
 }
+
 
 .output-card-container {
   display: flex;
@@ -112,7 +113,10 @@ button {
   cursor: pointer;
   transition: all ease-in-out 100ms;
 }
-
+.deposit-title, .withdraw-title{
+    color: white;
+    margin-bottom: 20px;
+}
 button:active {
   transform: scale(0.95);
 }
